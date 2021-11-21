@@ -26,7 +26,7 @@ h1 {
     line-height: 112%;
     max-width: 600px;
 }
-.colortext {
+.asterisk {
     color: #DE470D;
 }
  
@@ -43,7 +43,10 @@ h1 {
     line-height: 24px;
     text-decoration: none;
 }
-.menu a {
+.header-nav {
+    list-style-type: none;
+}
+.header-nav_link {
     color:#2B2B2B;
     font-size: 14px;
     line-height: 24px;
