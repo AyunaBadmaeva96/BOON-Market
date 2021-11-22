@@ -20,7 +20,7 @@ body {
     font-weight: 700;
     padding-top: 30px;
 }
-h1 {
+.header-title {
     color: #343434;
     font-size: 80px;
     line-height: 112%;
