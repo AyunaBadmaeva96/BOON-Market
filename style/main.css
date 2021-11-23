@@ -5,6 +5,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+a {
+    text-decoration: none;
+}
 .main {
     background-image: url(../image/Rectangle.png);
     padding: 1rem;
@@ -41,16 +44,18 @@ body {
     color:#343434;
     font-size: 16px;
     line-height: 24px;
-    text-decoration: none;
 }
 .header-nav {
+    display: flex;
+    justify-content: center;
+}
+.header-nav_list {
     list-style-type: none;
 }
 .header-nav_link {
     color:#2B2B2B;
     font-size: 14px;
     line-height: 24px;
-    text-decoration: none;
 }
 /* .button { 
     background-color: #FABAA0;
@@ -91,16 +96,15 @@ body {
     min-width: 150px;
 }
 .btn a {         
-      position: relative;
-      color:#343434;
-      display: inline-block;
-      font-size: 14px;
-      top: 0; left: 0;
-      width: 100%;
-      transition: 0.3s;
-      line-height: 24px;
-      text-transform: uppercase;
-      text-decoration: none;
+    position: relative;
+    color:#343434;
+    display: inline-block;
+    font-size: 14px;
+    top: 0; left: 0;
+    width: 100%;
+    transition: 0.3s;
+    line-height: 24px;
+    text-transform: uppercase;
 }
 .btn-2::before {
     background-color: #343434;
@@ -127,12 +131,43 @@ body {
 }
 
 
+.donated-info_wrapper {
+    display: flex;
+    justify-content: center;
+}
+.how-we-work_header-text {
+    color: #747474;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.how-we-work_header-title {
+    color: #343434;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 34px;
+    text-transform: capitalize;
+}
+.how-we-work_body {
+    display: flex;
+    justify-content: center;
+}
+.products-facets {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+}
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 /* .button a { 
     color:#343434;
     font-size: 14px;
     line-height: 24px;
-    text-decoration: none;
 }*/
 .footer {
     display: flex;
@@ -185,6 +220,5 @@ body {
     color:#747474;
     font-size: 12px;
     line-height: 16px;
-    text-decoration: none;
     margin-bottom: 14px;
 }
